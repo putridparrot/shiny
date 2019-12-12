@@ -3,7 +3,7 @@
 
 namespace Shiny.BluetoothLE.Central
 {
-    // https://www.bluetooth.org/en-us/specification/assigned-numbers/generic-access-profile
+    // https://www.bluetooth.com/specifications/assigned-numbers/generic-access-profile/
     public enum AdvertisementRecordType
     {
         Flags = 0x01,
@@ -48,7 +48,7 @@ namespace Shiny.BluetoothLE.Central
         RandomTargetAddress = 0x18,
         Appearance = 0x19,
 
-        AdvertisingInternval = 0x1A,
+        AdvertisingInterval = 0x1A,
         LeDeviceAddress = 0x1B,
         LeRole = 0x1C,
 
